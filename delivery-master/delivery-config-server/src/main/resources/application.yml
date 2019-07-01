@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+ application:
+  name: config-server   
+ profiles:
+  active: native
+ cloud:
+  config:
+   server:
+    native:
+     searchLocations: file:///D:/delivery/delivery-configs-master/delivery-configs-master
